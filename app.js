@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json()); // To parse JSON request bodies
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://thiru:Thiru736@cluster0.pdzby.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://mongodbsaraban:thiru736@saraban.sn7wk.mongodb.net/?retryWrites=true&w=majority&appName=saraban', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
