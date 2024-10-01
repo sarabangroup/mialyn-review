@@ -22,7 +22,7 @@ mongoose.connect('mongodb+srv://thiru:Thiru736@cluster0.pdzby.mongodb.net/?retry
 app.use('/api', reviewRoutes);
 
 // Starting the server
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT,0.0.0.0/0, () => {
     console.log(`Server is running on port ${PORT}`);
 });
